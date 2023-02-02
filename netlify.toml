@@ -1,8 +1,6 @@
 NPM_VERSION = “9.3.1”
-NODE_VERSION = "18.2.0"
+
 
 package = "@netlify/plugin-gatsby"
 
 
-NPM_VERSION = “9.3.1”
-NODE_VERSION = "18.2.0"
