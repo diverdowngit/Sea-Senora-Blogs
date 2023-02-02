@@ -1,2 +1,5 @@
 package = "@netlify/plugin-gatsby"
 
+[build.environment]
+NPM_VERSION = “9.3.1”
+NODE_VERSION = "18.2.0"
