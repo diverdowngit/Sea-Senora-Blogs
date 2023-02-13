@@ -4,7 +4,7 @@ import get from 'lodash/get'
 import Img from '../images/aboutTravel1.jpg'
 import Seo from '../components/seo'
 import Layout from '../components/layout'
-import Hero from '../components/hero'
+import Hero from '../components/Hero'
 import ArticlePreview from '../components/article-preview'
 
 class BlogIndex extends React.Component {
