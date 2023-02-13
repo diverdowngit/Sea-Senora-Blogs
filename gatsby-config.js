@@ -14,6 +14,7 @@ require("dotenv").config({
       "gatsby-plugin-react-helmet",
       "gatsby-plugin-sharp",
       "gatsby-plugin-image",
+      "gatsby-plugin-netlify",
       {
         resolve: "gatsby-source-contentful",
         options: {
