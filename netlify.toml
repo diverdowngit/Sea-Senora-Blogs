@@ -1,4 +1,5 @@
 
 package = "@netlify/plugin-gatsby"
 
-
+template]
+  incoming-hooks = ["Contentful"]
