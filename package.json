@@ -5,17 +5,30 @@
   "version": "0.1.0",
   "author": "fred",
   "dependencies": {
+    "@contentful/rich-text-plain-text-renderer": "^16.0.2",
+    "@contentful/rich-text-react-renderer": "^15.16.2",
     "gatsby": "^5.5.0",
-    "gatsby-plugin-image": "^3.5.0",
+    "gatsby-plugin-image": "^3.6.0",
     "gatsby-plugin-manifest": "^5.5.0",
+    "gatsby-plugin-playground": "^1.0.6",
+    "gatsby-plugin-react-helmet": "^6.6.0",
     "gatsby-plugin-sharp": "^5.5.0",
-    "gatsby-source-filesystem": "^5.5.0",
+    "gatsby-remark-images": "^7.6.0",
+    "gatsby-remark-relative-images": "^2.0.2",
+    "gatsby-source-contentful": "^8.6.0",
+    "gatsby-source-filesystem": "^5.6.0",
+    "gatsby-transformer-remark": "^6.6.0",
     "gatsby-transformer-sharp": "^5.5.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
     "react-icons": "^4.7.1"
   },
   "devDependencies": {
+    "env-cmd": "^10.1.0",
     "gatsby-plugin-netlify": "^5.1.0",
     "prettier": "^2.8.3"
   },
@@ -26,7 +39,7 @@
     "clean": "gatsby clean",
     "start": "npm run develop",
     "build": "npm run clean && gatsby build",
-    "develop": "npm run clean && gatsby develop",
+    "develop": "env-cmd -f ./.env gatsby develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
@@ -39,5 +52,10 @@
   },
   "engines": {
     "node": ">=18.0.0"
+  },
+  "overrides": {
+    "react-server-dom-webpack@0.0.0-experimental-c8b778b7f-20220825": {
+      "react": "^18.2.0"
+    }
   }
 }

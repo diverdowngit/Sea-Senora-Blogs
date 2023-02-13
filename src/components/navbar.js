@@ -61,7 +61,7 @@ const Navbar = () => {
             <Link to='/about'>about</Link>
           </li>
           <li className={menuitem}>
-            <Link to='/keepafloat'>Keep afloat</Link>
+            <Link to='/Keepafloat'>Keep afloat</Link>
           </li>
           <li className={menuitem}>
             <Link to='/'>Home</Link>

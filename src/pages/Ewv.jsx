@@ -8,7 +8,8 @@ export default function Ewv() {
     <div className={container}>
       <div className={wrapper}>
         <div className={exploreHeading}>Sail with Us</div>
-        <div className={secondHeading}> <a href="https://www.youtube.com/@svseasenora"target="_blank" rel="noopener noreferrer">A Travel Site</a></div>
+        <div className={secondHeading}> <a href="https://www.youtube.com/@svseasenora"text-decoration="none" 
+target="_blank" rel="noopener noreferrer">A Travel Site</a></div>
         <div className={storyWrapper}>
           <div className={story}>
           It’s a big wide world out there. A world of cultural charms and natural wonders; mega-cities and remote outposts;
